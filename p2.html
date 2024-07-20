@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resumo Farmaco P2</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f0f8ff;
+            color: #333;
+        }
+        header {
+            background-color: #2a7f62;
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        .content {
+            padding: 20px;
+            margin: 0 auto;
+            max-width: 800px;
+            text-align: center;
+        }
+        .hidden-image {
+            display: none;
+            text-align: center;
+            margin-top: 30px;
+        }
+        .hidden-image img {
+            max-width: 100%;
+            height: auto;
+        }
+        .button {
+            background-color: #007bff;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            font-size: 16px;
+            cursor: pointer;
+            border-radius: 5px;
+            margin-top: 20px;
+        }
+        footer {
+            background-color: #2a7f62;
+            color: white;
+            padding: 10px;
+            text-align: center;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <h1>Resumo Farmaco P2</h1>
+    </header>
+    <div class="content">
+        <p>Este é o resumo acadêmico de farmacologia para a disciplina P2.</p>
+        <!-- Botão para exibir a surpresa -->
+        <button class="button" onclick="showSurprise()">Abrir Resumo</button>
+
+        <!-- Seção oculta -->
+        <div class="hidden-image" id="surprise">
+            <h2>Surpresa!</h2>
+            <img src="kkkk.jpg" alt="Imagem engraçada"> <!-- Substitua 'sua_imagem.jpg' pelo nome da sua imagem -->
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2024 Resumo Farmaco P2. Feito para diversão e estudo.</p>
+    </footer>
+    <script>
+        function showSurprise() {
+            document.getElementById('surprise').style.display = 'block';
+        }
+    </script>
+</body>
+</html>
